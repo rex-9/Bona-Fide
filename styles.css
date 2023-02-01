@@ -10,10 +10,135 @@
 /* Classes Styles */
 
 
-/* Program Styles */
+/* Program Styles (desktop 3) developed by Ko Chit */
+#program {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+}
 
+.dsk3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: flex-end;
+  height: 18vh;
+  background-color: #fff;
+}
 
-/* About Styles */
+.dsk3 ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  color: #ff5c01;
+}
 
+.program {
+  background-color: #ff5c01;
+  color: white;
+  border-radius: 15px;
+}
 
-/* Partnership Styles */
+.dsk3 ul li {
+  margin: 10px;
+}
+
+.line {
+  color: blue;
+  margin: 0 2px;
+}
+
+.year2023 {
+  font-size: 145px;
+  font-weight: bolder;
+  padding-bottom: none;
+}
+
+.in {
+  font-size: 30px;
+  padding-bottom: none;
+}
+
+.In {
+  text-align: center;
+  padding-bottom: none;
+}
+
+.CSR {
+  text-align: center;
+  font-size: 20px;
+  padding-right: 8%;
+}
+
+.career {
+  font-size: 160px;
+  color: #ff5c01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 355px;
+}
+
+/* Partnership Styles(Desktop 4) developed by Ko Chit */
+.partner {
+  background-color: #ff5c01;
+  color: white;
+  border-radius: 15px;
+  padding: 4px 6px;
+}
+
+#partnership {
+  text-align: center;
+  height: 100vh;
+  border: 2px solid black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sponser {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+article {
+  width: 218px;
+  height: 219px;
+  background-color: #fbf9f9;
+  margin: 12px;
+}
+
+.article {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 px;
+  flex-wrap: wrap;
+}
+
+.contactword {
+  font-size: 30px;
+  text-align: center;
+  padding: 0 235px;
+}
+
+button {
+  height: 50px;
+  width: 140px;
+  background-color: #ff5c01;
+  border-radius: 30px;
+}
+
+.but {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 270px;
+  font-size: 25px;
+}
