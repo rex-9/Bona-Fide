@@ -19,7 +19,7 @@
   padding: 0 100px;
   align-items: flex-end;
   height: 18vh;
-background-color: #fff;
+  background-color: #fff;
 }
 
 .dsk3 ul {
@@ -104,6 +104,7 @@ background-color: #fff;
   font-weight: bold;
   padding-top: 30px;
 }
+
 /* article {
   width: 15vw;
   height: 25vh;
@@ -137,13 +138,15 @@ button {
   padding: 0 270px;
   font-size: 25px;
 }
-.img{
+
+.img {
   width: 15vw;
   height: 25vh;
   margin: 3px;
   border: 3px solid black;
 }
-ul{
+
+#partnership ul {
   display: flex;
   list-style-type: none;
   flex-wrap: wrap;
