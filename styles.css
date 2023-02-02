@@ -19,7 +19,7 @@
   padding: 0 100px;
   align-items: flex-end;
   height: 18vh;
-  background-color: #fff;
+background-color: #fff;
 }
 
 .dsk3 ul {
@@ -104,10 +104,9 @@
   font-weight: bold;
   padding-top: 30px;
 }
-
-article {
-  width: 218px;
-  height: 219px;
+/* article {
+  width: 15vw;
+  height: 25vh;
   background-color: #fbf9f9;
   margin: 12px;
 }
@@ -117,10 +116,10 @@ article {
   justify-content: space-around;
   padding: 0 px;
   flex-wrap: wrap;
-}
-
+  padding: 0 50px;
+} */
 .contactword {
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   padding: 0 235px;
 }
@@ -137,4 +136,17 @@ button {
   justify-content: space-between;
   padding: 0 270px;
   font-size: 25px;
+}
+.img{
+  width: 15vw;
+  height: 25vh;
+  margin: 3px;
+  border: 3px solid black;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 7vw;
 }
