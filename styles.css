@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Crete+Round&family=Inter:wght@100;200;300&display=swap);
+
 /* Nav Styles */
 
 
@@ -8,12 +10,120 @@
 
 
 /* Classes Styles */
+h2 {
+  height: 100vh;
+  font-family: Cabin;
+  font-size: 70px;
+  line-height: 50px;
+  width: 1000px;
+  height: 32px;
+  left: 124px;
+  top: 1px;
+}
 
+#classes img {
+  width: 42vh;
+  height: 32vh;
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: o 30vh;
+  align-items: center;
+}
 
 /* Program Styles */
 
 
 /* About Styles */
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul > div {
+  border: 2px solid black;
+  width: fit-content;
+  padding: 1px;
+  border-radius: 35px;
+  box-shadow: 0 0 4px;
+  left: 103px;
+}
+
+div > h1 {
+  width: 497px;
+  height: 72px;
+  left: 150px;
+  top: 225px;
+  font-family: Cabin;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 59px;
+  margin: 47px;
+}
+
+div > h2 {
+  width: 497px;
+  height: 72px;
+  left: 152px;
+  top: 350px;
+  font-family: Cabin;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  margin: 49px;
+}
+
+.about > h1 {
+  width: 420px;
+  height: 103px;
+  left: 123px;
+  top: 400px;
+  font-family: 'Cabin';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.about > h2 {
+  width: 1236px;
+  height: 117px;
+  left: 124px;
+  top: 454px;
+  font-family: 'Cabin';
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+}
+
+.platforms > h2 {
+  font-family: 'Cabin';
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  width: 716px;
+  height: 103px;
+  left: 123px;
+  top: 732px;
+}
+
+.icons > img {
+  width: 69px;
+  height: 69px;
+  margin: 5px;
+  top: 700px;
+  left: 124px;
+  padding: 0 3px;
+  justify-content: space-around;
+  align-items: stretch;
+}
 
 
 /* Partnership Styles */
