@@ -1,10 +1,14 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 /* Nav Styles */
+
 nav {
   display: flex;
+  position: sticky;
+  top: 0;
   justify-content: space-between;
   background-color: orange;
   cursor: pointer;
@@ -14,7 +18,7 @@ nav {
   display: flex;
   height: 80px;
   width: 79px;
-  margin-left: 30px;
+  margin-left: 50px;
   border-radius: 0;
   margin-top: 30px;
   align-items: center;
@@ -26,6 +30,8 @@ nav {
   align-items: center;
   gap: 40px;
   margin-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
   font-size: 20px;
   font-weight: 700;
 }
@@ -34,9 +40,10 @@ nav {
   border-radius: 180px;
   background-color: orangered;
   width: 90px;
-  height: 36px;
+  height: 34px;
   text-align: center;
   color: white;
+  padding-top: 5px;
 }
 
 .first-icon span {
@@ -53,9 +60,15 @@ nav {
 }
 
 /* Intro Styles */
+#intro {
+  min-height: 100vh;
+  width: 100%;
+}
+
 .main-topic {
   justify-content: space-between;
   display: flex;
+  padding-left: 30px;
 }
 
 h1 {
@@ -145,7 +158,7 @@ h1 {
   margin-left: 60px;
   font-weight: 700;
   font-size: 48px;
-  line-height: 58px;
+  padding-left: 20px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -168,6 +181,60 @@ h1 {
 }
 
 /* Intro2 Styles */
+
+#intro2 {
+  max-height: 200vh;
+  width: 100%;
+  justify-content: center;
+  border: 2px solid black;
+}
+
+.second-header {
+  padding-top: 90px;
+  justify-content: center;
+  margin: 0;
+}
+
+.second-edu {
+  padding-top: 15px;
+  padding-left: 57rem;
+}
+
+.text-1 {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+.icon-ce {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.text-2 {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 24px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  margin: 0;
+}
+
+.text-3 {
+  font-weight: 700;
+  font-size: 300px;
+  margin: 0;
+  text-align: center;
+}
+
+.ppl {
+  margin: 0;
+  padding-left: 12rem;
+}
 
 /* Classes Styles */
 
