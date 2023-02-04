@@ -2,22 +2,18 @@
 
 /* Nav Styles */
 
-
 /* Intro Styles */
-
 
 /* Intro2 Styles */
 
-
 /* Classes Styles */
 h2 {
-  height: 100vh;
-  font-family: Cabin;
+  font-family: 'Cabin', sans-serif;
   font-size: 70px;
   line-height: 50px;
   width: 1000px;
   height: 32px;
-  left: 124px;
+  left: 162px;
   top: 1px;
 }
 
@@ -29,22 +25,22 @@ h2 {
 
 ul {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#classes ul {
+  display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   list-style-type: none;
-  padding: o 30vh;
+  padding: 30vh;
   align-items: center;
 }
 
 /* Program Styles */
 
-
 /* About Styles */
-ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 ul > div {
   border: 2px solid black;
@@ -60,20 +56,20 @@ div > h1 {
   height: 72px;
   left: 150px;
   top: 225px;
-  font-family: Cabin;
-  font-weight: 700;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700px;
   font-size: 40px;
   line-height: 59px;
   margin: 47px;
 }
 
 div > h2 {
+  font-family: 'Cabin', sans-serif;
   width: 497px;
   height: 72px;
   left: 152px;
   top: 350px;
-  font-family: Cabin;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 20px;
   line-height: 39px;
   display: flex;
@@ -86,8 +82,8 @@ div > h2 {
   height: 103px;
   left: 123px;
   top: 400px;
-  font-family: 'Cabin';
-  font-weight: 700;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700px;
   font-size: 48px;
   line-height: 58px;
 }
@@ -97,15 +93,15 @@ div > h2 {
   height: 117px;
   left: 124px;
   top: 454px;
-  font-family: 'Cabin';
-  font-weight: 300;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 300px;
   font-size: 22px;
   line-height: 39px;
 }
 
 .platforms > h2 {
-  font-family: 'Cabin';
-  font-weight: 700;
+  font-family: 'Cabin', sans-serif;
+  font-weight: 700px;
   font-size: 48px;
   line-height: 58px;
   width: 716px;
@@ -114,7 +110,7 @@ div > h2 {
   top: 732px;
 }
 
-.icons > img {
+#icons > img {
   width: 69px;
   height: 69px;
   margin: 5px;
@@ -122,8 +118,6 @@ div > h2 {
   left: 124px;
   padding: 0 3px;
   justify-content: space-around;
-  align-items: stretch;
 }
-
 
 /* Partnership Styles */
