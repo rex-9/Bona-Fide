@@ -1,19 +1,141 @@
-/* Nav Styles */
+#program {
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: 2px solid black;
+}
 
+.dsk3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: flex-end;
+  height: 18vh;
+  background-color: #fff;
+}
 
-/* Intro Styles */
+.dsk3 ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  color: #ff5c01;
+}
 
+.program {
+  background-color: #ff5c01;
+  color: white;
+  border-radius: 15px;
+}
 
-/* Intro2 Styles */
+.dsk3 ul li {
+  margin: 10px;
+}
 
+.line {
+  color: blue;
+  margin: 0 2px;
+}
 
-/* Classes Styles */
+.year2023 {
+  font-size: 145px;
+  font-weight: bolder;
+  padding-bottom: none;
+}
 
+.in {
+  font-size: 30px;
+  padding-bottom: none;
+}
 
-/* Program Styles */
+.In-2023 {
+  text-align: center;
+  padding-bottom: none;
+}
 
+.CSR {
+  text-align: center;
+  font-size: 20px;
+  padding-right: 8%;
+  font-weight: bold;
+}
 
-/* About Styles */
+.career {
+  font-size: 160px;
+  color: #ff5c01;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+}
 
+.test ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0 355px;
+}
 
-/* Partnership Styles */
+/* Partnership Styles(Desktop 4) developed by Ko Chit */
+.partner {
+  background-color: #ff5c01;
+  color: white;
+  border-radius: 15px;
+  padding: 4px 6px;
+}
+
+#partnership {
+  text-align: center;
+  height: 100vh;
+  border: 2px solid black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sponser {
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.contact-word {
+  font-size: 20px;
+  text-align: center;
+  padding: 0 235px;
+  font-weight: bold;
+}
+
+button {
+  height: 50px;
+  width: 140px;
+  background-color: #ff5c01;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.but {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 270px;
+  font-size: 25px;
+}
+
+.img {
+  width: 15vw;
+  height: 25vh;
+  margin: 3px;
+  border: 3px solid black;
+}
+
+#partnership ul {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0 7vw;
+}
