@@ -16,12 +16,14 @@ h2 {
   left: 172px;
   top: 1px;
 }
+
 #classes img {
   width: 42vh;
   height: 32vh;
   margin: 10px;
 }
-ul {
+
+#classes ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -32,6 +34,13 @@ ul {
 /* Program Styles */
 
 /* About Styles */
+#about-us ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
 
 ul > div {
   border: 2px solid black;
@@ -41,6 +50,7 @@ ul > div {
   box-shadow: 0 0 4px;
   left: 103px;
 }
+
 div > h1 {
   width: 497px;
   height: 72px;
@@ -52,6 +62,7 @@ div > h1 {
   line-height: 59px;
   margin: 47px;
 }
+
 div > h2 {
   font-family: 'Cabin', sans-serif;
   width: 497px;
@@ -65,6 +76,7 @@ div > h2 {
   align-items: center;
   margin: 49px;
 }
+
 .about > h1 {
   width: 450px;
   height: 103px;
@@ -75,16 +87,18 @@ div > h2 {
   font-size: 55px;
   line-height: 58px;
 }
+
 .about > h2 {
-  width: 1300px;
-  height: 100px;
+  width: 1150px;
+  height: 50px;
   left: 124px;
   top: 350px;
   font-family: 'Cabin', sans-serif;
   font-weight: 200px;
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 25px;
+  line-height: 35px;
 }
+
 .platforms > h2 {
   font-family: 'Cabin', sans-serif;
   font-weight: 700px;
@@ -95,16 +109,18 @@ div > h2 {
   left: 123px;
   top: 732px;
 }
+
 .icons {
   display: flex;
   justify-content: start;
 }
+
 .icons li {
   cursor: pointer;
   width: 50px;
   height: 50px;
   list-style-type: none;
   margin-left: 18px;
-  top: 808px;
 }
+
 /* Partnership Styles */
