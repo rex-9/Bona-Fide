@@ -12,15 +12,16 @@ nav {
   justify-content: space-between;
   background-color: orange;
   cursor: pointer;
+  height: 10vh;
 }
 
 .bona-icon {
   display: flex;
-  height: 80px;
-  width: 79px;
+  height: 70px;
+  width: 71px;
   margin-left: 50px;
   border-radius: 0;
-  margin-top: 30px;
+  margin-top: 5px;
   align-items: center;
 }
 
@@ -31,38 +32,40 @@ nav {
   gap: 40px;
   margin-right: 100px;
   padding-left: 100px;
-  padding-top: 20px;
-  font-size: 20px;
-  font-weight: 700;
+  padding-top: 8px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .first-icon {
-  border-radius: 180px;
+  border-radius: 140px;
   background-color: orangered;
-  width: 90px;
-  height: 34px;
+  width: 70px;
+  height: 23px;
   text-align: center;
   color: white;
-  padding-top: 5px;
+  padding-top: 3px;
 }
 
-.first-icon span {
-  margin-top: 3rem;
+.first-icon:hover {
+  width: 73px;
+  height: 27px;
+  font-size: 18px;
 }
 
 .text {
   color: white;
+  transition: all 0.4s;
 }
 
 .text:hover {
   color: orangered;
-  transition: 0.4s;
+  font-size: 18px;
 }
 
 /* Intro Styles */
 #intro {
-  min-height: 100vh;
-  width: 100%;
+  height: 90vh;
 }
 
 .main-topic {
@@ -72,47 +75,48 @@ nav {
 }
 
 h1 {
-  margin-left: 60px;
+  margin: 0;
+  margin-left: 50px;
   font-weight: 700;
-  font-size: 128px;
-  line-height: 156px;
+  font-size: 100px;
+  line-height: 120px;
   display: flex;
   align-items: center;
   color: orangered;
 }
 
 .edu {
-  margin-top: 8rem;
-  margin-left: 8rem;
+  margin-top: 2rem;
+  margin-left: 6rem;
 }
 
 #one {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 20px;
   display: flex;
-  align-items: center;
-  text-align: center;
   margin-top: 0;
-  margin-left: 8rem;
+  margin-left: 5rem;
   margin-bottom: 0;
 }
 
 .years {
-  font-weight: 700;
-  font-size: 180px;
-  line-height: 120px;
+  font-weight: 600;
+  font-size: 140px;
+  line-height: 100px;
   margin-top: 0;
   margin-right: 3rem;
   margin-bottom: 0;
 }
 
 .career-enter {
-  margin-top: 2rem;
+  margin-top: 0.8rem;
+  margin-right: 5rem;
   display: flex;
   padding: 0;
   justify-content: space-between;
-  margin-right: 5rem;
+  width: 240px;
+  height: 70px;
 }
 
 .career image {
@@ -120,27 +124,25 @@ h1 {
 }
 
 .entertain {
-  margin-top: 0;
+  margin: 0;
   display: flex;
   padding: 0;
   justify-content: space-between;
 }
 
 #two {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 25px;
   display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-right: 0;
+  margin: 0;
 }
 
 #three {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -156,17 +158,19 @@ h1 {
 
 .join-button {
   margin-left: 60px;
-  font-weight: 700;
-  font-size: 48px;
+  margin-top: 80px;
+  font-weight: 500;
+  font-size: 40px;
   padding-left: 20px;
   display: flex;
   align-items: center;
   text-align: center;
-  border-radius: 55px;
+  border-radius: 58px;
   background-color: orangered;
   cursor: pointer;
-  width: 725px;
-  height: 149px;
+  width: 600px;
+  height: 100px;
+  transition: all 0.5s ease-in 0.5s;
 }
 
 .join-button span {
@@ -175,43 +179,62 @@ h1 {
   color: white;
 }
 
-.join-button span:hover {
-  color: yellow;
-  transition: 0.4s;
+.join-button a {
+  text-decoration: none;
+}
+
+.join-button:hover {
+  background-color: orange;
+  width: 600px;
+  height: 150px;
+}
+
+.Ellipse {
+  height: 250px;
+  width: 350px;
+  margin-top: 35px;
 }
 
 /* Intro2 Styles */
 
 #intro2 {
-  max-height: 200vh;
-  width: 100%;
+  height: 129vh;
   justify-content: center;
   border: 2px solid black;
 }
 
 .second-header {
-  padding-top: 90px;
+  padding-top: 50px;
   justify-content: center;
   margin: 0;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.tr {
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-justify {
+  text-align: center;
 }
 
 .second-edu {
   padding-top: 15px;
-  padding-left: 57rem;
 }
 
 .text-1 {
   font-weight: 700;
   font-size: 24px;
-  text-align: center;
   margin: 0;
 }
 
 .icon-ce {
   display: flex;
   justify-content: space-around;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 35rem;
+  padding-right: 35rem;
 }
 
 .text-2 {
@@ -219,23 +242,25 @@ h1 {
   justify-content: space-around;
   font-weight: 700;
   font-size: 24px;
-  padding-left: 20rem;
-  padding-right: 20rem;
+  padding-left: 35rem;
+  padding-right: 35rem;
   margin: 0;
 }
 
 .text-3 {
-  font-weight: 700;
-  font-size: 300px;
+  font-weight: 600;
+  font-size: 200px;
   margin: 0;
   text-align: center;
 }
 
 .ppl {
   margin: 0;
-  padding-left: 12rem;
+  padding: 0;
 }
 
-/* Classes Styles */
-
-/* Program Styles (desktop 3) developed by Ko Chit */
+.image-justify {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
