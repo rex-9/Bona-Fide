@@ -5,6 +5,7 @@ body {
 
 /* Nav Styles */
 
+
 nav {
   display: flex;
   position: sticky;
@@ -12,7 +13,10 @@ nav {
   justify-content: space-between;
   background-color: orange;
   cursor: pointer;
+  /* PC */
   height: 10vh;
+  /* MB */
+  /* height: 100vh; */
 }
 
 .bona-icon {
@@ -25,7 +29,7 @@ nav {
   align-items: center;
 }
 
-.Topic {
+.topic-pc {
   display: flex;
   list-style-type: none;
   align-items: center;
@@ -35,6 +39,29 @@ nav {
   padding-top: 8px;
   font-size: 15px;
   font-weight: 600;
+}
+
+.topic-mb {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.menu {
+  display: none;
+}
+
+@media (max-width: 764px) {
+  .topic-pc {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
 }
 
 .first-icon {
