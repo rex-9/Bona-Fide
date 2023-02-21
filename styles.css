@@ -17,11 +17,11 @@ nav {
 
 .bona-icon {
   display: flex;
-  height: 70px;
-  width: 71px;
+  height: 40px;
+  width: 41px;
   margin-left: 50px;
   border-radius: 0;
-  margin-top: 5px;
+  margin-top: 15px;
   align-items: center;
 }
 
@@ -172,13 +172,11 @@ h1 {
   height: 100px;
   transition: all 0.5s ease-in 0.5s;
 }
-
 .join-button span {
   margin-right: 1rem;
   margin-left: 1rem;
   color: white;
 }
-
 .join-button a {
   text-decoration: none;
 }
@@ -198,7 +196,7 @@ h1 {
 /* Intro2 Styles */
 
 #intro2 {
-  height: 129vh;
+  height: 90vh;
   justify-content: center;
   border: 2px solid black;
 }
@@ -260,7 +258,5 @@ h1 {
 }
 
 .image-justify {
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
