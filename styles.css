@@ -154,20 +154,19 @@ h1 {
   display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 0rem;
+  margin-top: 0;
   margin-right: 2rem;
 }
 
 .undertext {
   display: flex;
   justify-content: space-between;
-  margin-top: 0px;
-
+  margin-top: 0;
 }
 
 .join-button {
   margin-left: 30px;
-  margin-top: 0px;
+  margin-top: 0;
   font-weight: 300;
   font-size: 33px;
   padding-left: 20px;
@@ -181,11 +180,13 @@ h1 {
   height: 100px;
   transition: all 0.5s ease-in 0.5s;
 }
+
 .join-button span {
   margin-right: 1rem;
   margin-left: 1rem;
   color: white;
 }
+
 .join-button a {
   text-decoration: none;
 }
@@ -199,10 +200,8 @@ h1 {
 .Ellipse {
   height: 140px;
   width: 200px;
-  margin-top: 0px;
+  margin-top: 0;
 }
-
-
 
 /* Intro2 Styles */
 
@@ -253,7 +252,7 @@ h1 {
   font-size: 15px;
   padding-left: 20rem;
   padding-right: 20rem;
-  margin-top: 0rem;
+  margin-top: 0;
 }
 
 .text-3 {
