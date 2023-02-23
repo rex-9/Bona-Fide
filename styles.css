@@ -25,23 +25,23 @@ nav {
   align-items: center;
 }
 
-.Topic {
+.topic-pc {
   display: flex;
   list-style-type: none;
   align-items: center;
   gap: 40px;
-  margin-right: 100px;
-  padding-left: 100px;
+  margin-right: 80px;
+  padding-left: 80px;
   padding-top: 8px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
 }
 
 .first-icon {
-  border-radius: 140px;
+  border-radius: 110px;
   background-color: orangered;
-  width: 70px;
-  height: 23px;
+  width: 60px;
+  height: 20px;
   text-align: center;
   color: white;
   padding-top: 3px;
@@ -50,7 +50,7 @@ nav {
 .first-icon:hover {
   width: 73px;
   height: 27px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .text {
@@ -60,10 +60,17 @@ nav {
 
 .text:hover {
   color: orangered;
-  font-size: 18px;
+  font-size: 15px;
 }
 
+/* @media (max-width: 764px) {
+  .topic-pc {
+    display: none
+  }
+} */
+
 /* Intro Styles */
+
 #intro {
   height: 90vh;
 }
@@ -75,11 +82,11 @@ nav {
 }
 
 h1 {
-  margin: 0;
-  margin-left: 50px;
-  font-weight: 700;
-  font-size: 100px;
-  line-height: 120px;
+  margin-top: 2rem;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 90px;
   display: flex;
   align-items: center;
   color: orangered;
@@ -91,8 +98,8 @@ h1 {
 }
 
 #one {
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 20px;
   display: flex;
   margin-top: 0;
@@ -101,8 +108,8 @@ h1 {
 }
 
 .years {
-  font-weight: 600;
-  font-size: 140px;
+  font-weight: 400;
+  font-size: 120px;
   line-height: 100px;
   margin-top: 0;
   margin-right: 3rem;
@@ -115,8 +122,8 @@ h1 {
   display: flex;
   padding: 0;
   justify-content: space-between;
-  width: 240px;
-  height: 70px;
+  width: 200px;
+  height: 40px;
 }
 
 .career image {
@@ -131,8 +138,8 @@ h1 {
 }
 
 #two {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 25px;
   display: flex;
   align-items: center;
@@ -141,26 +148,28 @@ h1 {
 }
 
 #three {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 15px;
   line-height: 25px;
   display: flex;
   align-items: center;
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 0rem;
   margin-right: 2rem;
 }
 
 .undertext {
   display: flex;
   justify-content: space-between;
+  margin-top: 0px;
+
 }
 
 .join-button {
-  margin-left: 60px;
-  margin-top: 80px;
-  font-weight: 500;
-  font-size: 40px;
+  margin-left: 30px;
+  margin-top: 0px;
+  font-weight: 300;
+  font-size: 33px;
   padding-left: 20px;
   display: flex;
   align-items: center;
@@ -168,7 +177,7 @@ h1 {
   border-radius: 58px;
   background-color: orangered;
   cursor: pointer;
-  width: 600px;
+  width: 500px;
   height: 100px;
   transition: all 0.5s ease-in 0.5s;
 }
@@ -183,30 +192,32 @@ h1 {
 
 .join-button:hover {
   background-color: orange;
-  width: 600px;
-  height: 150px;
+  width: 520px;
+  height: 110px;
 }
 
 .Ellipse {
-  height: 250px;
-  width: 350px;
-  margin-top: 35px;
+  height: 140px;
+  width: 200px;
+  margin-top: 0px;
 }
+
+
 
 /* Intro2 Styles */
 
 #intro2 {
-  height: 90vh;
+  height: 100vh;
   justify-content: center;
   border: 2px solid black;
 }
 
 .second-header {
-  padding-top: 50px;
+  padding-top: 20px;
   justify-content: center;
   margin: 0;
-  font-weight: 600;
-  font-size: 80px;
+  font-weight: 300;
+  font-size: 50px;
 }
 
 .tr {
@@ -223,31 +234,31 @@ h1 {
 }
 
 .text-1 {
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 15px;
   margin: 0;
 }
 
 .icon-ce {
   display: flex;
   justify-content: space-around;
-  padding-left: 35rem;
-  padding-right: 35rem;
+  padding-left: 20rem;
+  padding-right: 20rem;
 }
 
 .text-2 {
   display: flex;
   justify-content: space-around;
-  font-weight: 700;
-  font-size: 24px;
-  padding-left: 35rem;
-  padding-right: 35rem;
-  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  margin-top: 0rem;
 }
 
 .text-3 {
-  font-weight: 600;
-  font-size: 200px;
+  font-weight: 400;
+  font-size: 120px;
   margin: 0;
   text-align: center;
 }
