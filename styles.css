@@ -1,19 +1,275 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Nav Styles */
 
+nav {
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  background-color: orange;
+  cursor: pointer;
+  height: 10vh;
+}
+
+.bona-icon {
+  display: flex;
+  height: 40px;
+  width: 41px;
+  margin-left: 50px;
+  border-radius: 0;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.topic-pc {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  gap: 40px;
+  margin-right: 80px;
+  padding-left: 80px;
+  padding-top: 8px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.first-icon {
+  border-radius: 110px;
+  background-color: orangered;
+  width: 60px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  padding-top: 3px;
+}
+
+.first-icon:hover {
+  width: 73px;
+  height: 27px;
+  font-size: 15px;
+}
+
+.text {
+  color: white;
+  transition: all 0.4s;
+}
+
+.text:hover {
+  color: orangered;
+  font-size: 15px;
+}
+
+/* @media (max-width: 764px) {
+  .topic-pc {
+    display: none
+  }
+} */
 
 /* Intro Styles */
 
+#intro {
+  height: 90vh;
+}
+
+.main-topic {
+  justify-content: space-between;
+  display: flex;
+  padding-left: 30px;
+}
+
+h1 {
+  margin-top: 2rem;
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 90px;
+  display: flex;
+  align-items: center;
+  color: orangered;
+}
+
+.edu {
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+
+#one {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  margin-top: 0;
+  margin-left: 5rem;
+  margin-bottom: 0;
+}
+
+.years {
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 100px;
+  margin-top: 0;
+  margin-right: 3rem;
+  margin-bottom: 0;
+}
+
+.career-enter {
+  margin-top: 0.8rem;
+  margin-right: 5rem;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  width: 200px;
+  height: 40px;
+}
+
+.career image {
+  display: flex;
+}
+
+.entertain {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+#two {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+}
+
+#three {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 0;
+  margin-right: 2rem;
+}
+
+.undertext {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.join-button {
+  margin-left: 30px;
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 33px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 58px;
+  background-color: orangered;
+  cursor: pointer;
+  width: 500px;
+  height: 100px;
+  transition: all 0.5s ease-in 0.5s;
+}
+
+.join-button span {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+.join-button a {
+  text-decoration: none;
+}
+
+.join-button:hover {
+  background-color: orange;
+  width: 520px;
+  height: 110px;
+}
+
+.Ellipse {
+  height: 140px;
+  width: 200px;
+  margin-top: 0;
+}
 
 /* Intro2 Styles */
 
+#intro2 {
+  height: 90vh;
+  justify-content: center;
+  border: 2px solid black;
+  position: relative;
+}
 
-/* Classes Styles */
+.second-header {
+  padding-top: 20px;
+  justify-content: center;
+  margin: 0;
+  font-weight: 300;
+  font-size: 50px;
+}
 
+.tr {
+  justify-content: center;
+  align-items: center;
+}
 
-/* Program Styles */
+.icon-justify {
+  text-align: center;
+}
 
+.second-edu {
+  padding-top: 15px;
+}
 
-/* About Styles */
+.text-1 {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0;
+}
 
+.icon-ce {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
 
-/* Partnership Styles */
+.text-2 {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 500;
+  font-size: 15px;
+  padding-left: 20rem;
+  padding-right: 20rem;
+  margin-top: 0;
+}
+
+.text-3 {
+  font-weight: 400;
+  font-size: 120px;
+  margin: 0;
+  text-align: center;
+}
+
+.ppl {
+  margin: 0;
+  padding: 0;
+}
+
+.image-justify {
+  position:  absolute;
+  text-align: center;
+  bottom: 0;
+}
