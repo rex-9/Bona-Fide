@@ -206,9 +206,10 @@ h1 {
 /* Intro2 Styles */
 
 #intro2 {
-  height: 100vh;
+  height: 90vh;
   justify-content: center;
   border: 2px solid black;
+  position: relative;
 }
 
 .second-header {
@@ -268,5 +269,7 @@ h1 {
 }
 
 .image-justify {
+  position:  absolute;
   text-align: center;
+  bottom: 0;
 }
